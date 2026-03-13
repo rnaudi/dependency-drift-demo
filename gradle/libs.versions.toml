@@ -1,0 +1,15 @@
+[versions]
+kotlin_version = "1.9.23"
+spring_boot_version = "3.2.0"
+jackson_version = "2.16.0"
+
+# External dependencies
+guava_version = "[33.0.0, 34.0)"
+slf4j_version = "1.7.+"
+
+# Test dependencies
+junit_version = "5.10.0"
+mockito_version = "5.8.0"
+
+# Plugins and processors
+spotless_version = "6.23.0"
