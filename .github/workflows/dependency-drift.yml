@@ -1,0 +1,18 @@
+name: Dependency Drift
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - uses: rnaudi/dependency-drift@main
+        with:
+          last: "0"
