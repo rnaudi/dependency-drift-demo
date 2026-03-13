@@ -10,7 +10,7 @@ opentelemetry_version = "1.40.0"
 
 # Test dependencies
 junit_version = "5.11.0"
-mockito_version = "5.12.0"
+mockito_version = "5.13.0"
 
 # Plugins and processors
 spotless_version = "7.0.0"
